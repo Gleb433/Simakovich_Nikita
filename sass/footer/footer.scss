@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.cdnfonts.com/css/intro-2');
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
     padding: 0px;
@@ -8,19 +10,108 @@
 
 $Raleway: 'Raleway', sans-serif;
 $Intro: 'Intro Demo', sans-serif;
+$Sf-pro: 'SF Pro Display', sans-serif;
+$inter: 'Inter', sans-serif;
 
 .footer {
-    min-height: 250px;
-    height: 100%;
+    padding: 55px 50px;
     background-color: #222;
     border-top-right-radius: 47px;
     border-top-left-radius: 47px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 43px;
+    gap: 35px;
 }
+
+.number-me {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.number-me-title {
+    font-family: $Intro ;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+    background: linear-gradient(92deg, #262626 -3.08%, #1A8149 175.42%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.number-me-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 23px;
+    row-gap: 25px;
+}
+
+.number-me-top-block {
+    height: 219px;
+    width: 328px;
+    padding-left: 45px;
+    border-radius: 20px;
+    background: linear-gradient(131deg, #222 2.02%, #1A8149 112.77%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+@mixin number-block ($font-family, $font-size, $text-transform, $font-weight) {
+    color: var(--white, #FFF);
+    font-family: $font-family;
+    font-size: $font-size;
+    font-style: normal;
+    font-weight: $font-weight;
+    line-height: normal;
+    text-transform: $text-transform;
+}
+
+.number-me-top-block h2 {
+    @include number-block($Sf-pro, 90px, uppercase, 500);
+}
+
+.number-me-top-block span {
+    @include number-block($inter, 22px, none, 300);
+    opacity: 0.8;
+}
+
+.more-info {
+    border: 1px solid var(--green, #1A8149);
+    border-radius: 10px;
+    max-width: 1163px;
+    width: 100%;
+    height: 71px;
+    display: flex;
+}
+
+.more-info a {
+    width: 100%;
+    height: 100%;
+    color: #0F512D;
+    font-family: $Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .footer-contact {
     display: flex;
@@ -51,4 +142,21 @@ $Intro: 'Intro Demo', sans-serif;
 
 .footer-contact {
     @include footer-contact(500px, 35px,center);
+}
+
+@mixin link-owner ($color) {
+    color: $color;
+    font-family: $Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.owner-site span {
+    @include link-owner(#C5C5C5);
+}
+
+.owner-site a {
+    @include link-owner(#54CD76);
 }
