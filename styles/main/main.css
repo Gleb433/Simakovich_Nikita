@@ -203,6 +203,12 @@ video {
   height: 56.345px;
   border-radius: 10px;
   background: var(--green, #1A8149);
+  color: var(--white, #FFF);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   border: none;
   /* 1 */
   box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.06);

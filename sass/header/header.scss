@@ -37,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo-text {
@@ -112,4 +113,8 @@ nav div a{
 .nikita {
     object-fit: cover;
     height: 500px;
+}
+
+@media screen {
+    
 }
