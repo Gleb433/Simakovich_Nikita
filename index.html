@@ -61,13 +61,22 @@
     </header>
     <main>
         <div class="services">
-            <div class="clip">
-                <video id="custom-video" class="video" controls>
-                    <source src="./images/MORGENSHTERN - День Х (Клип, 2024).mp4" type="video/mp4">
-                    
-                </video>
-                <button id="play-button" class="play-button">Play</button>
+            <div class="video">
+                <div class="black-square" id="black-square">
+                    <button id="play-button" class="play-button"></button>
+                </div>
+                <div class="video-overlay" id="video-overlay">
+                    <div class="close-button" id="close-button">&times;</div>
+            
+                    <div class="video-wrapper">
+                        <video id="custom-video" controls>
+                            <source src="./images/MORGENSHTERN - День Х (Клип, 2024).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
             </div>
+
 
             <div class="services-title">
                 <div class="padding-title">

@@ -1,0 +1,17 @@
+<svg width="135" height="136" viewBox="0 0 135 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<g id="Rectangle 19" filter="url(#filter0_b_5_121)">
+<rect y="0.581543" width="134.837" height="134.837" rx="19.4765" fill="white" fill-opacity="0.29"/>
+<rect x="0.374547" y="0.95609" width="134.088" height="134.088" rx="19.1019" stroke="#F5F5F5" stroke-opacity="0.4" stroke-width="0.749095"/>
+</g>
+<path id="Polygon 1" d="M101.877 68L49.0657 98.4905L49.0657 37.5094L101.877 68Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_b_5_121" x="-7.34113" y="-6.75958" width="149.519" height="149.519" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="3.67056"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_5_121"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_5_121" result="shape"/>
+</filter>
+</defs>
+</svg>
