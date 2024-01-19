@@ -108,10 +108,6 @@ video {
   text-transform: uppercase;
 }
 
-.padding-title-2 {
-  padding-right: 30px;
-}
-
 .work-text {
   color: var(--white, #FFF);
   font-family: "Intro Demo", sans-serif;
@@ -204,7 +200,7 @@ video {
   border-radius: 10px;
   background: var(--green, #1A8149);
   color: var(--white, #FFF);
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -245,17 +241,22 @@ video {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 78px;
+  column-gap: 78px;
 }
 
 .my-work {
-  height: 766px;
+  height: 650px;
   background-color: #222;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding-left: 122px;
+  align-items: end;
+}
+
+.end {
+  max-width: 1318px;
+  width: 100%;
+  padding-left: 44px;
 }
 
 .my-work-title {
@@ -269,7 +270,8 @@ video {
 
 .services-line-size-2 {
   height: 1px;
-  width: 870px;
+  max-width: 870px;
+  width: 100%;
   opacity: 0.4;
   background: linear-gradient(270deg, #FFF 7.08%, rgba(255, 255, 255, 0) 95.93%);
 }
@@ -301,7 +303,7 @@ video {
 
 .my-work-container {
   border-radius: 25px;
-  max-height: 466px;
+  max-height: 380px;
   height: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -309,7 +311,7 @@ video {
 
 .my-work-container img {
   border-radius: 25px;
-  max-height: 466px;
+  max-height: 380px;
   height: 100%;
 }
 
@@ -317,6 +319,56 @@ video {
   height: 500px;
   width: 100%;
   background-color: rgb(54, 42, 42);
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    height: 382px;
+  }
+  .services-text {
+    font-size: 30px;
+  }
+  .services-haircut-block {
+    width: 325px;
+    height: 140px;
+  }
+  .services-haircut-block-2 {
+    width: 325px;
+    height: 140px;
+  }
+  .rus {
+    font-size: 20px;
+  }
+  .eng {
+    font-size: 20px;
+  }
+  .my-work {
+    height: 414px;
+  }
+  .end {
+    max-width: 600px;
+    width: 100%;
+    padding-left: 44px;
+  }
+  .work-text {
+    font-size: 30px;
+    width: 220px;
+  }
+  .my-work-container {
+    max-height: 280px;
+    height: 100%;
+  }
+  .my-work-container img {
+    max-height: 280px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 610px) {
+  .end {
+    max-width: 505px;
+    width: 100%;
+    padding-left: 44px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

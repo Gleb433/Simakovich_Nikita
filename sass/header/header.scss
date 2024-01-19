@@ -115,6 +115,9 @@ nav div a{
     height: 500px;
 }
 
-@media screen {
-    
+@media screen and (max-with: 650px){
+    .head-go-sign-button {
+        width: 299px;
+        height: 62px;
+    }
 }

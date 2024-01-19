@@ -160,3 +160,10 @@ $inter: 'Inter', sans-serif;
 .owner-site a {
     @include link-owner(#54CD76);
 }
+
+@media screen and (max-width: 868px){
+    .more-info {
+        max-width: 373px;
+        width: 100%;
+    }
+}

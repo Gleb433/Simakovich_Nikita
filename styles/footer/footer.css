@@ -158,4 +158,11 @@
   line-height: normal;
 }
 
+@media screen and (max-width: 868px) {
+  .more-info {
+    max-width: 373px;
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
