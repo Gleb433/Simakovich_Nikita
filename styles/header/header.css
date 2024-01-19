@@ -7,10 +7,10 @@
 
 header {
   background-color: #222;
-  background-image: url(../../images/Thatnick.svg);
+  background-image: url(../../images/background-Nikita.svg);
   background-repeat: no-repeat;
-  background-position: center top 165px;
-  top: 165px;
+  background-position: center bottom;
+  background-size: 100%;
   height: 836px;
 }
 

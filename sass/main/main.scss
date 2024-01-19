@@ -230,7 +230,7 @@ video {
 
 .services-complexes-title {
     font-family: $Intro ;
-    font-size: 35px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -333,18 +333,22 @@ video {
         height: 382px;
     }
 
+    .services-complexes {
+        height: 487px;
+    }
+
     .services-text {
         font-size: 30px;
     }
 
     .services-haircut-block {
         width: 325px;
-        height: 140px;
+        height: 110px;
     }
 
     .services-haircut-block-2 {
         width: 325px;
-        height: 140px;
+        height: 110px;
     }
 
     .rus {
@@ -353,6 +357,10 @@ video {
 
     .eng {
         font-size: 20px;
+    }
+
+    .services-complexes-title {
+        font-size: 30px;
     }
 
     .my-work {
