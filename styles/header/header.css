@@ -110,20 +110,27 @@ nav div a {
   height: 500px;
 }
 
+@media screen and (max-width: 1170px) {
+  header {
+    background-image: url(../../images/Thatnick-for-mobile.svg);
+  }
+  .thatnick {
+    background-image: url(../../images/new-photo-Nikita-2-for-mobile.svg);
+    background-size: 1130px;
+    background-position: center top 260px;
+  }
+  .link-button {
+    width: 299px;
+    height: 62px;
+  }
+  .link {
+    top: 570px;
+  }
+}
 @media screen and (max-width: 767px) {
   .background {
     padding-left: 100px;
     padding-right: 100px;
-  }
-  .thatnick {
-    background-image: url(../../images/new-photo-Nikita-2-for-mobile.svg);
-    background-size: 1200px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .head-go-sign-button {
-    width: 299px;
-    height: 62px;
   }
 }
 
