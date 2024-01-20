@@ -45,7 +45,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .logo-text {
@@ -135,6 +134,7 @@ nav div a{
 
     }
 
+
     .link-button {
         width: 299px;
         height: 62px;
@@ -147,12 +147,56 @@ nav div a{
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     .background {
         padding-left: 100px;
         padding-right: 100px;
     }
 
+    .head-centr {
+        display: flex;
+        justify-content: center;
+        padding-top: 17px;
+    }
 
+    .head {
+        max-width: 1160px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head nav {
+        justify-self: center;
+    }
+
+    .head div {
+        justify-self: center;
+
+    }
+
+    .logo {
+        grid-column: 1/3;
+        justify-self: center;
+    }
+
+    .head-go-sign-button {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .head {
+        max-width: 1160px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
