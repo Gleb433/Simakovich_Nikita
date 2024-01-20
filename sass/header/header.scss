@@ -198,5 +198,44 @@ nav div a{
         justify-content: center;
         align-items: center;
     }
+
+    .thatnick {
+        background-image: url(../../images/new-photo-Nikita-2-for-mobile.svg);
+        background-size: 1000px;
+        background-position: center top 300px;
+
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .thatnick {
+        background-image: url(../../images/new-photo-Nikita-2-for-mobile.svg);
+        background-size: 880px;
+        background-position: center top 340px;
+
+    }
+
+    .head-go-sign-button {
+        width: 140px;
+    }
+
+    .head {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .head nav {
+        justify-self: center;
+        grid-column: 1/3;
+    }
+
+    .head div {
+        justify-self: center;
+        grid-column: 1/3;
+    }
+
+    .link {
+        top: 521px;
+    }
 }
 
