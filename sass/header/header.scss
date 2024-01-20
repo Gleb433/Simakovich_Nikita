@@ -10,18 +10,26 @@ $Raleway: 'Raleway', sans-serif;
 $Intro: 'Intro Demo', sans-serif;
 
 header {
-    
+    position: relative;
     background-color: #222;
-    // background-image: url(../../images/Group\ 1948754182.svg);
-    // background-repeat: no-repeat;
-    // background-position: center top;
-    // background-size: cover;
-    // fill: none;
-    background-image: url(../../images/background-Nikita.svg);
+    background-image: url(../../images/Thatnick.svg);
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100%;
+    background-position: center top 200px;
     height: 836px;
+    
+
+}
+
+.thatnick {
+
+    position: relative;
+
+    background-image: url(../../images/new-photo-Nikita-2.svg);
+    background-repeat: no-repeat;
+    background-position: center top 225px;
+    background-size: 1300px;
+    height: 836px;
+
 }
 
 .head-centr {
@@ -115,9 +123,22 @@ nav div a{
     height: 500px;
 }
 
-@media screen and (max-with: 650px){
+@media screen and (max-width: 767px) {
+    .background {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .thatnick {
+        background-image: url(../../images/new-photo-Nikita-2-for-mobile.svg);
+        background-size: 1200px;
+    }
+}
+
+@media screen and (max-width: 650px){
     .head-go-sign-button {
         width: 299px;
         height: 62px;
     }
 }
+

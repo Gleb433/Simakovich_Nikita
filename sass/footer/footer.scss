@@ -161,9 +161,37 @@ $inter: 'Inter', sans-serif;
     @include link-owner(#54CD76);
 }
 
+.logo-text-2 {
+    color: var(--white, #FFF);
+    font-family: $Intro;
+    font-size: 26.987px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 868px){
     .more-info {
         max-width: 373px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .number-me-title {
+        font-size: 30px;
+    }
+
+    .number-me-top-block h2 {
+        font-size: 75px;
+    }
+
+    .number-me-top-block span {
+        font-size: 18px;
+    }
+
+    .logo-text-2 {
+        font-size: 18px;
     }
 }

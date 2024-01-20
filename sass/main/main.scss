@@ -10,7 +10,9 @@ $Raleway: 'Raleway', sans-serif;
 $Intro: 'Intro Demo', sans-serif;
 
 main {
+    position: relative;
     background-color: #E1E1E1;
+    z-index: 2;
 }
 
 .video {
@@ -215,7 +217,7 @@ video {
 }
 
 .services-complexes {
-    min-height: 352px;
+    min-height: 300px;
     max-width: 1174px;
     width: 100%;
     height: 100%;
@@ -226,6 +228,10 @@ video {
     justify-content: end;
     align-items: center;
     gap: 30px;
+}
+
+.block-title {
+    padding-top: 20px;
 }
 
 .services-complexes-title {
@@ -333,8 +339,12 @@ video {
         height: 382px;
     }
 
-    .services-complexes {
-        height: 487px;
+    // .services-complexes {
+    //     height: 487px;
+    // }
+
+    .block-title {
+        padding-top: 30px;
     }
 
     .services-text {
