@@ -195,3 +195,9 @@ $inter: 'Inter', sans-serif;
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 460px) {
+    .number-me-title {
+        font-size: 26px;
+    }    
+}
